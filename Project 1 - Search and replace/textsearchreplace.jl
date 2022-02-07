@@ -4,8 +4,27 @@
 using Markdown
 using InteractiveUtils
 
-# ╔═╡ 6a115ac2-8832-11ec-37ef-07797efcc908
+# ╔═╡ 47848c47-1a67-4112-9ca7-3be4a95135e1
+s = ""
 
+# ╔═╡ 246196cb-d4f1-4897-bb8f-9fa6eaf74f65
+filepath = "../Project 1 - Search and replace/captions_text.vtt"
+
+# ╔═╡ 6a115ac2-8832-11ec-37ef-07797efcc908
+begin
+	f = open(filepath, "r")
+	lines = readlines(f)
+	close(f)
+	lines2 = read(filepath, String)
+end
+
+# ╔═╡ d67a083e-15a2-452d-aef3-060fe9793214
+lines
+# line by line
+
+# ╔═╡ bb9e6fbf-9caa-4ce9-9dc9-5fc6afcaf763
+lines2
+# entire text file
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -23,6 +42,10 @@ manifest_format = "2.0"
 """
 
 # ╔═╡ Cell order:
+# ╠═47848c47-1a67-4112-9ca7-3be4a95135e1
+# ╠═246196cb-d4f1-4897-bb8f-9fa6eaf74f65
 # ╠═6a115ac2-8832-11ec-37ef-07797efcc908
+# ╠═d67a083e-15a2-452d-aef3-060fe9793214
+# ╠═bb9e6fbf-9caa-4ce9-9dc9-5fc6afcaf763
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
