@@ -4,9 +4,6 @@
 using Markdown
 using InteractiveUtils
 
-# ╔═╡ 47848c47-1a67-4112-9ca7-3be4a95135e1
-s = ""
-
 # ╔═╡ 246196cb-d4f1-4897-bb8f-9fa6eaf74f65
 filepath = "../Project 1 - Search and replace/captions_text.vtt"
 
@@ -42,7 +39,6 @@ manifest_format = "2.0"
 """
 
 # ╔═╡ Cell order:
-# ╠═47848c47-1a67-4112-9ca7-3be4a95135e1
 # ╠═246196cb-d4f1-4897-bb8f-9fa6eaf74f65
 # ╠═6a115ac2-8832-11ec-37ef-07797efcc908
 # ╠═d67a083e-15a2-452d-aef3-060fe9793214
