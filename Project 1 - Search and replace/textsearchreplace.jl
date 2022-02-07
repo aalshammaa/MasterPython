@@ -9,9 +9,7 @@ filepath = "../Project 1 - Search and replace/captions_text.vtt"
 
 # ╔═╡ 6a115ac2-8832-11ec-37ef-07797efcc908
 begin
-	f = open(filepath, "r")
-	lines = readlines(f)
-	close(f)
+	lines = readlines(filepath)
 	lines2 = read(filepath, String)
 end
 
